@@ -1,5 +1,6 @@
 package com.learnJava.lambdas;
 
+import java.util.HashMap;
 import java.util.TreeMap;
 
 public class SortingTreeMapWithLambda {
@@ -29,6 +30,15 @@ public class SortingTreeMapWithLambda {
 		treeMap1.put(1, "A");
 		
 		System.out.println("Customised" + treeMap1);
+		
+		HashMap<Integer, String> hashMap = new HashMap<>();
+		hashMap.put(2, "W");
+		hashMap.put(4, "T");
+		hashMap.put(5, "y");
+		hashMap.put(3, "e");
+		hashMap.put(1, "A");
+		
+		System.out.println("By Default" + hashMap);
 		
 
 	}

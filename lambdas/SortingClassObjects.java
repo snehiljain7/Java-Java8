@@ -30,11 +30,11 @@ public class SortingClassObjects {
 		employees.add(new Employee(2, "Z"));
 		employees.add(new Employee(4, "H"));
 		
-		System.out.println(employees);
+		System.out.println("Before Sorting " + employees);
 		Collections.sort(employees, 
 							(e1,e2) -> (e1.id<e2.id)?-1:(e1.id>e2.id)?1:0 
 									);
-		System.out.println(employees);
+		System.out.println("After Sorting " + employees);
 
 	}
 
