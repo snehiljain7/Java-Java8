@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package com.learnJava.ExceptionHandling;
 
 public class UncheckedException {
 

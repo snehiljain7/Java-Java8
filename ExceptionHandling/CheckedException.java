@@ -1,9 +1,8 @@
-package ExceptionHandling;
+package com.learnJava.ExceptionHandling;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-import javafx.stage.PopupWindow;
 
 public class CheckedException {
 

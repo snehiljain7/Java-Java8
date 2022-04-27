@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package com.learnJava.ExceptionHandling;
 
 
 class ThrowExcep
