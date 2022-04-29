@@ -13,7 +13,7 @@ public class RandomPassword {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String pwd = "";
-		Supplier<Integer> numberSupplier = () -> (int)(Math.random()*10);
+		Supplier<Integer> numberSupplier = () -> (int)(Math.random()*9);
 		
 		String symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ@#$";
 		
